@@ -41,3 +41,30 @@ body {
     width: 125px;
     height: 125px;
 }
+
+.esquina-izquierda {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    filter: brightness(80%);
+    /* Brillo inicial */
+    animation: brillo 4s ease-in-out infinite alternate;
+}
+
+/* Animación de brillo */
+@keyframes brillo {
+    0% {
+        filter: brightness(70%);
+        /* Brillo inicial */
+    }
+
+    50% {
+        filter: brightness(140%);
+        /* Brillo máximo */
+    }
+
+    100% {
+        filter: brightness(70%);
+        /* Brillo inicial */
+    }
+}
