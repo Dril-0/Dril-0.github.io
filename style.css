@@ -45,7 +45,7 @@ body {
 .esquina-izquierda {
     position: absolute;
     bottom: 0;
-    left: 0;
+    left: 25px;
     filter: brightness(80%);
     /* Brillo inicial */
     animation: brillo 4s ease-in-out infinite alternate;
