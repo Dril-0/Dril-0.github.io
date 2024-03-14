@@ -37,7 +37,7 @@ body {
 .esquina-derecha {
     position: absolute;
     bottom: 0;
-    right: 0;
+    right: 25px;
     width: 125px;
     height: 125px;
 }
